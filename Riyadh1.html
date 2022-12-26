@@ -11,6 +11,14 @@
     table, th, td {
       border:1px solid black;
     }
+
+    p {font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;}
+    h1 {font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;}
+    h2 {font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;}
+    h3 {font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;}
+    h4 {font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;}
+
+    .fontC { color: rgb(115, 168, 199) }
     </style>
 
    <body>
@@ -18,79 +26,63 @@
       <h2 style="background-color: lightblue; color:white;" >Riyadh Atlas</h2>
       <p ALIGN="center">
            <a href="#">Home</a>
-           <a href="#" style="color:rgb(115, 168, 199)">About</a>
-           <a href="#" style="color:rgb(115, 168, 199)">Contact</a>
+           <a href="#About" class = "fontC">>About</a>
+           <a href="#Contact" class = "fontC">Contact</a>
        </p>
     
        
-    
-       <center><img src="photo_2022-12-17 21.49.47.jpeg" width="1000" height="500"></center> 
-      <h1 ALIGN="center" style="color:rgb(115, 168, 199)"> Welcome to Riyadh Atlas</h1>
+      <section id="1">
+        <center><img src="photo_2022-12-17 21.49.47.jpeg" width="1000" height="500"></center> 
+        <h1 ALIGN="center" style="text-decoration: underline;" class = "fontC" id="About"> Welcome to Riyadh Atlas</h1>
 
-      <p ALIGN="center" style="font-size: 120%;">Every person needs a place to relax and enjoy. <br> Whether you are visiting Riyadh for work or pleasure, the Riyadh Atlas website is an excellent source of information about some of the most popular destinations and things to do with family and friends. <br>Let us help you enjoy Riyadh's best.</p>
-      <hr>
-     
-      <br>
-      <br>
-    
-      <!--
-      <P align="center" style="font-size: 200%; color:rgb(115, 168, 199);"> You can find some </P>
+        <p ALIGN="center" style="font-size: 120%;">Every person needs a place to relax and enjoy. <br> Whether you are visiting Riyadh for work or pleasure, the Riyadh Atlas website is an excellent source of information about some of the most popular destinations and things to do with family and friends. <br><a href="#Help">Let us help you enjoy Riyadh's best.</a></p>
+        <hr>
+      </section>
 
-      <table align="center" style="width:50%;">
+      <section id="2">
+        <br>
+        <br>
+        <P align="center" class = "fontC" style="font-size: 170%;"><strong> Top Rated this week:</strong></P>
+        <table align="center" style="width:50%;">
         <tr>
-          <th>Monuments</th>
+          <th>Heritages</th>
           <th>Restaurants</th>
           <th>Cafes</th>
         </tr>
-        <tr>
-          <td><center><img src="Fortress.jpg" width="100" height="100"></center></td>
-          <td><center><img src="Rest.jpg" width="90" height="90"></center></td>
-          <td><center><img src="Cafe.jpg" width="100" height="100"></center></td>
+        <tr align="center">
+          <td class = "fontC">Al Masmak Fort</td>
+          <td class = "fontC">Muunni's Restaurant</td>
+          <td class = "fontC">Knockout Cafe</td>
         </tr>
-   
-      </table>
-    -->
-
-    <P align="center" style="font-size: 170%; color:rgb(115, 168, 199);"><strong> Top Rated this week:</strong></P>
-
-    <table align="center" style="width:50%;">
-      <tr>
-        <th>Heritages</th>
-        <th>Restaurants</th>
-        <th>Cafes</th>
-      </tr>
-      <tr align="center">
-        <td style="color:rgb(115, 168, 199);">Al Masmak Fort</td>
-        <td style="color:rgb(115, 168, 199);">Muunni's Restaurant</td>
-        <td style="color:rgb(115, 168, 199);">Knockout Cafe</td>
-      </tr>
-      <tr>
-        <td><center><img src="Masmak.jpg" width="310" height="220"></center></td>
-        <td><center><img src="Munnies.jpg" width="310" height="220"></center></td>
-        <td><center><img src="Kickster.jpg" width="310" height="220"></center></td>
-      </tr>
+        <tr>
+          <td><center><img src="Masmak.jpg" width="310" height="220"></center></td>
+          <td><center><img src="Munnies.jpg" width="310" height="220"></center></td>
+          <td><center><img src="Kickster.jpg" width="310" height="220"></center></td>
+        </tr>
  
-    </table>
+        </table>
+      </section>
 
     <br>
     <br>
     <br>
     <br>
 
-    
-    <h2 style=" background-color: lightblue; color:white;">- Most popular Heritage places:</h2>
-    <img src="Fortress.jpg" alt="Fortress Icon" width="120" height="120">
-    <ul style="font-size:120%">
-        <li>Al Masmak Fortress</li>
-        <li>Edge of the world</li>
-        <li>Ad-diriah</li>
-        <li>Thumairi Gate</li>
+    <section id="3">
+      <h2 style=" background-color: lightblue; color:white;">- Most popular Heritage places:</h2>
+      <img src="Fortress.jpg" alt="Fortress Icon" width="120" height="120">
+      <ul style="font-size:120%">
+          <li>Al Masmak Fortress</li>
+          <li>Edge of the world</li>
+          <li>Ad-diriah</li>
+          <li>Thumairi Gate</li>
       </ul>
-      
-      <br>
-      <br>
+    </section>
+    
+    <br>
+    <br>
 
-
+    <section id="4"> 
       <h2 style=" background-color: lightblue; color:white;">- Most popular Restaurants:</h2>
       <img src="Rest.jpg" alt="Fortress Icon" width="100" height="100">
       <ul style="font-size:120%">
@@ -98,12 +90,13 @@
           <li>Muunni's Restaurant</li>
           <li>Shiro Restaurant</li>
           <li>Section B Restaurant</li>
-        </ul>
+      </ul>
 
-        <br>
-        <br>
-
-        
+      <br>
+      <br>
+    </section>
+     
+    <section id="5">
         <h2 style=" background-color: lightblue; color:white;">- Most popular Cafes:</h2>
         <img src="Cafe.jpg" alt="Fortress Icon" width="120" height="120">
       <ul style="font-size:120%">
@@ -117,11 +110,60 @@
         <br>
         <br>
         <br>
+    </section>
+
+    <p align="center" style=" background-color: lightblue; color:white;"><strong>-------------------------------------------------------------------------</strong></p>
+    <br>
+    <section id="6">
+      
+      <body>
+        <h3 align="center" class = "fontC"> <id="Help"> Help us to suggest the best for you!</h3>
+      
+
+        <form method = "post" action = "#">
+        <p align="center"><label>- Number of people expected to go including you:
+            1 <input type = "range" 
+               min = "1"
+               max = "20"
+               value = "1" /> 20
+         </label>
+        </label></p>
+
+        <p align="center"><label>*The expected date to visit  
+          <input type = "date" required /> 
+        </label></p>
+      
+        <p align="center"><label>- What kind of place you are interested in 
+            <select name="select">
+                <option value="Restaurant">Restaurant</option>
+                <option value="Cafe">Cafe</option>
+                <option value="monument">monument</option>
+            </select>
+        </label></p>
+
+        <p align="center"><label>*Email:
+          <input type = "email" placeholder = "name@domain.com" 
+          required /> (name@domain.com)
+        </label></p>    
+
+        <p align="center"><label> Notes that need to be considered:<br>
+            <textarea name="comments" rows="3" cols="40">the person is vegan/ allergic to...</textarea>
+        </label></p>
+
+        <p align="center">
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </p>
+      </form>
+      </body>
+    </section>
+
+
         <p align="center" style=" background-color: lightblue; color:white;"><strong>-------------------------------------------------------------------------</strong></p>
         <br>
-
-        <h3 align="center" style="color:rgb(115, 168, 199);">Don't forget to give us your feedback about our site ;)</h3>
-        <form method = "post" action = "#"></form>
+    <section id="7">
+        <h3 align="center" class = "fontC">Don't forget to give us your feedback about our site ;)</h3>
+        <form method = "post" action = "#">
         <p align="center">
             <strong>- Was our site helpful to you?</strong><br>
 
@@ -155,8 +197,11 @@
          </p>   
 
         <br>
-       
-        <h4 align="center" style="color:rgb(115, 168, 199);">Contact info:</h4>
+        </form>
+    </section>
+
+    <footer>
+        <h4 align="center" class = "fontC"> id="Contact">Contact info:</h4>
         <table align="center" style="width:50%; height:5;">
         
             <tr>
@@ -174,10 +219,10 @@
             </tr>
         
         </table>
+    </footer>
 
         <br>
         <br>
-      
 
    </body>
 </html>
