@@ -29,4 +29,11 @@ Choosing the right colors for the website was one of our top design consideratio
 
 - MongoDB as a database.
  
+ <br>
+ 
+ 
+ <h4>4-User Flow chart:</h4>
+ 
+  
+![flowchart-](https://user-images.githubusercontent.com/109030320/218288849-a0222cb1-3bce-404a-8d23-0a248d4be567.png)
 
